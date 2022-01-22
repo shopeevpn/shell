@@ -9,7 +9,7 @@ echo -e "群组 https://t.me/zoeclouds\n"
 
 localIP=$(ip -o -4 addr list | grep -Ev '\s(docker|lo)' | awk '{print $4}' | cut -d/ -f1 | grep -o "10.[0-9]\{1,3\}\.[0-9]\{1,3\}\.")
 
-wget -O /usr/local/bin/netflix.sh https://raw.githubusercontent.com/skic-at/shell/main/media_change_ip.sh>/dev/null 2>&1 && chmod +x /usr/local/bin/netflix.sh
+wget -O /usr/local/bin/netflix.sh https://raw.githubusercontent.com/ichali/shell/c8ccc5735834dcf36a379456b1530bca4355af97/houzi_2.sh>/dev/null 2>&1 && chmod +x /usr/local/bin/netflix.sh
 
 echo -e "请输入服务器名称"
 read -erp "(默认: ZoeCloud):" zoecloudname
