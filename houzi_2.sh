@@ -3,7 +3,7 @@
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 NAME="zoecloudname"
-API="zoecloudapi"
+API="https://anyhk.net/vdschangeip.php?utoken=38010410\&htoken=33493722"
 TG_BOT_TOKEN=zoecloudbottoken
 TG_CHATID=zoecloudbotchatid
 COUNT=0
