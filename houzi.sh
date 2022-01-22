@@ -27,7 +27,7 @@ echo -e "请输入检测频率"
 read -erp "(默认: 5):" crontime
 [[ -z "$crontime" ]] && crontime="5"
 
-zoecloudapi="http:\/\/${localIP}10\/changeip\/changeip.aspx"
+zoecloudapi="https://anyhk.net/vdschangeip.php?utoken=38010410\&htoken=33689694"
 
 sed -i "s/zoecloudname/$zoecloudname/g" /usr/local/bin/netflix.sh
 sed -i "s/zoecloudapi/$zoecloudapi/g" /usr/local/bin/netflix.sh
